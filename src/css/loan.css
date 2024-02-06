@@ -1,0 +1,25 @@
+
+.loanApp-container {
+    background: #fff;
+    height: 100vh;
+    width: 100%;
+    overflow-y: auto;
+    position: relative;
+}
+
+.loanApp-container .content {
+   padding-top: 0.94rem;
+}
+
+
+
+@media (min-width: 750px) {
+    .loanApp-container .content {
+        padding-top: 80px;
+     }
+
+     .header-title {
+        font-size:52px;
+        
+    } 
+  }

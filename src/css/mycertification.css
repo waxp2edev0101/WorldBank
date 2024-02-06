@@ -1,0 +1,388 @@
+.bxb-certification-box{
+    padding-top: 0.94rem;
+    padding-bottom: 1.3rem;
+}
+
+.bxb-certification-card{
+    background: #fff;
+    padding:0.4rem 0;
+    position: relative;
+}
+
+.certification-card-first-bg{
+    width: 5.6rem;
+    height: 2.6rem;
+    background: linear-gradient(-45deg,#fea33a,#fea33a 50%,#ff4d39);
+    border-radius: 0.15rem;
+    padding:0.3rem 0.2rem;
+    justify-content: center;
+
+    margin-left:auto;
+    margin-right:auto;
+    z-index:10;
+    position:relative;
+    
+    display:flex;
+    flex-direction: row;
+}
+
+.card-txt-left {
+    width: 50%;
+    padding-top: 0.4rem;
+    color: #fff;
+    font-size: 0.3rem;
+    padding-right: 0.15rem;
+}
+
+.bxb-m10-top{
+    margin-top:0.1rem;
+}
+
+.card-txt-right {
+    
+      padding-top: 0.4rem;    
+    
+}
+
+.card-txt-right-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    z-index: 5;
+    left: 0;
+    /* top: 0.4rem; */
+   
+}
+
+.card-txt-right-content h6{
+    font-size: 0.52rem;
+    font-weight: 500;
+}
+
+.card-txt-right-content p{
+    font-size:0.28rem;
+}
+
+.svgView {
+    width: 2.2rem;
+    height: 2.2rem;
+    -webkit-transform: rotate(90deg);
+    position: absolute;
+    top:0.4rem;
+    left:3rem;
+   
+}
+.certification-card-second-bg {
+     background: #ff4d39;
+     opacity: 0.2;
+     width: 6.12rem;
+     height: 2.24rem;
+     left:50%;
+     top:50%;
+     margin-top: -1.12rem;
+     margin-left: -3.06rem;
+     border-radius: 0.15rem;
+     position: absolute;
+} 
+
+.certification-card-third-bg {
+    background: #ff4d39;
+    opacity: 0.1;
+    width: 6.6rem;
+    height: 2rem;
+    left:50%;
+    top:50%;
+    margin-top: -1rem;
+    margin-left: -3.3rem;
+    border-radius: 0.15rem;
+    position: absolute;
+    z-index: 1;
+}
+
+.bxb-bg-fff {
+    background: #fff;
+}
+.bxb-m15-top {
+    margin-top: 0.15rem;
+}
+.bxb-tit-num01 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.25rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+.bxb-tit-num01 span {
+    width: 0.15rem;
+    height: 0.15rem;
+    border-radius: 50%;
+    background: #4077E2;
+    margin: 0 0.15rem 0 0;
+    vertical-align: middle;
+}
+
+ .bxb-tit-txt {
+    font-size: 0.3rem;
+    color: #333;
+    font-weight: 500;
+    padding-left: 8px;
+    
+}
+
+.bxb-authentication-input {
+    padding: 0.25rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.authentication-label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    /* width: 110px; */
+    /* word-wrap: break-word;
+    word-break: break-all; */
+}
+
+.authentication-pic {
+    width: 0.4rem;
+    height:0.4rem;
+}
+
+.authentication-label-input {
+    text-align:  right;
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    height:1.47058824em;
+    line-height: 1.47058824;
+    padding: 18px 0 18px 15px;
+    white-space: nowrap;
+    font-size: 0.3rem ;
+    font-weight: 500;
+    color: #333;
+    
+}
+
+
+.identity-card {
+    padding-top: 20px;
+}
+
+
+.identity-card-txt {
+    color: #4c4c4c;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.identity-card-dialog {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.identity-card-model {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    height: 150px;
+}
+
+.identity-card-model-pic {
+    width:80%;
+}
+
+.identity-card-model-txt {
+    padding-top: 20px;
+    color: #b2b2b2;
+    font-size: 16px;
+    line-height: 28px;
+    width: 70%;
+}
+
+.identity-card2{
+    padding-top:40px
+}
+
+.bxb-certification-note {
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    color: #777;
+    font-size: 0.26rem;
+    line-height: 0.42rem;
+    /* padding: 0.3rem 0; */
+}
+
+.certification-btn-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.certification-btn {
+    border:1px solid rgba(0,0,0,0.2);
+    border-radius: 20px;
+    background:linear-gradient(90deg, #55B2F4 0%, #3F83F1 100%) ;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    line-height: 2.55555556;
+    width: 100%;
+    
+}
+
+
+@media (min-width: 750px) {
+    .bxb-certification-box{
+        padding-top: 94px;
+        padding-bottom: 130px;
+    }
+    
+    .bxb-certification-card{
+        padding:40px 0;
+    }
+    
+    .certification-card-first-bg{
+        width: 560px;
+        height: 260px;
+        border-radius: 15px;
+        padding:30px 20px;
+    }
+    
+    .card-txt-left {
+        padding-top: 40px;
+        font-size: 30px;
+        padding-right: 15px;
+    }
+    
+    .bxb-m10-top{
+        margin-top:10px;
+    }
+    
+    .card-txt-right {
+        
+          padding-top: 40px;    
+        
+    }
+    
+     
+    .card-txt-right-content h6{
+        font-size: 52px;
+    }
+    
+    .card-txt-right-content p{
+        font-size:28px;
+    }
+    
+    .svgView {
+        width: 220px;
+        height: 220px;
+        top:40px;
+        left:300px;
+       
+    }
+    .certification-card-second-bg {
+         width: 612px;
+         height: 224px;
+         margin-top: -112px;
+         margin-left: -306px;
+         border-radius: 15px;
+    } 
+    
+    .certification-card-third-bg {
+        width: 660px;
+        height: 200px;
+        margin-top: -100px;
+        margin-left: -330px;
+        border-radius: 15px;
+
+    }
+    
+    .bxb-m15-top {
+        margin-top:15px;
+    }
+    .bxb-tit-num01 {
+        padding: 25px;
+    }
+    .bxb-tit-num01 span {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: #4077E2;
+        margin: 0 15px 0 0;
+        vertical-align: middle;
+    }
+    
+     .bxb-tit-txt {
+        font-size: 30px;
+        color: #333;
+        font-weight: 500;
+        padding-left: 8px;
+        
+    }
+    
+    .bxb-authentication-input {
+        padding: 25px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-bottom: 1px solid #e5e5e5;
+    }
+    
+   
+    
+    .authentication-pic {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .authentication-label-input {
+        text-align:  right;
+        width: 100%;
+        background-color: transparent;
+        border: 0;
+        outline: 0;
+        height:1.47058824em;
+        line-height: 1.47058824;
+        padding: 18px 0 18px 15px;
+        white-space: nowrap;
+        font-size: 030px ;
+        font-weight: 500;
+        color: #333;
+        
+    }
+ 
+    
+    .bxb-certification-note {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: #777;
+        font-size: 26px;
+        line-height: 42px;
+        /* padding: 0.3rem 0; */
+    }
+
+
+    
+
+}

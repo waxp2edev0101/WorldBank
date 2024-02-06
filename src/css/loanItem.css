@@ -1,0 +1,51 @@
+.loan-container {
+    
+}
+
+.loan-container .title {
+    margin-right: -65px;
+    border-bottom: 1px solid #e8e8e8;
+    position: relative;
+   
+    text-overflow:hidden;
+    margin: 0px -15px ;
+    padding: inherit;
+   
+    text-overflow: ellipsis;
+    color:inherit;  
+}
+
+.loan-container .title:hover {
+    cursor: pointer;
+}
+.loan-container .title ::after {
+    content: '\e581';
+    right: 15px;
+    line-height: 1px;
+    position: absolute;
+    top:50%;
+    color: #bbb;
+}
+
+.loan-container .title-txt {
+    display: block;
+    max-width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    font-size:15px ;
+    padding:11px 15px;
+    color:#4C4C4C;
+}
+
+.loan-container .content1 {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.loan-container .content-txt {
+    
+    padding: 11px 15px;
+    font-size: 14px ;
+    color:#999999
+}

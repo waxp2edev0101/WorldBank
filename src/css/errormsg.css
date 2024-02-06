@@ -1,0 +1,16 @@
+.errdeo {
+    top: 45%;
+    white-space: nowrap;
+    position: fixed;
+    left: 50%;
+    padding: 6px 16px;
+    color: #fff;
+    font-size: 14px;
+    background: #000;
+    opacity: 0.8;
+    border-radius: 2px;
+    transform: translateX(-50%) translateY(0);
+    z-index: 9;
+    text-align: center;
+    height: 30px;
+}

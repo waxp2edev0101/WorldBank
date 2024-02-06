@@ -1,0 +1,54 @@
+.bxb-cashflow-box {
+    padding-top: 0.94rem;
+}
+
+.cashflow-box-pic {
+    padding: 60px 20px 30px;
+}
+
+.mydiv {
+    width: 127px;
+    height: 114px;
+    margin: 0 auto;
+}
+
+.icon_cash_pic{
+    width: 100%;
+}
+
+.cashflow-box-info {
+    text-align: center;
+    font-size: 14px;
+    color: #a9a7a7;
+}
+
+.cashflow-btn-div {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cashflow-btn {
+    width: 120px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 20px;
+    border:1px solid rgba(0,0,0,0.2);
+    color: white;
+    background: linear-gradient(90deg, #55B2F4 0%, #3F83F1 100%);
+}
+
+.cashflow-btn:hover {
+
+    cursor: pointer;
+}
+
+@media (min-width: 750px) {
+    .bxb-cashflow-box {
+        padding-top: 94px;
+    }
+    
+}
